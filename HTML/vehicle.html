@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>add policy</title>
+</head>
+<style>
+table
+{
+color: white;
+background: none;
+background-position: center;
+border-radius: 30px;
+position: center;
+transparent: transparent;
+}
+
+#btn
+{
+background-color:#ffcc66;
+color:white;
+height:35px;
+width:100px;
+border-radius:25px
+}
+body
+{ 
+background-color: #a3c2c2;
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+}
+.policy
+{
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+}
+</style>
+
+<body>
+<FORM method="POST" ACTION="vehicledata.php">
+
+	<div align="center" class="policy"><h2><b><u>ADD VEHICLE DETAILS</u><b></h2></div>
+<br>
+<br>
+
+<table align="center" border="3" cellspacing="20">
+<tr>
+<td>Person_ID<td><input type="text" name="Person_ID" placeholder="Person_ID"></td></tr>
+<tr>
+<td>Number_of_wheeles<td><input type="text" name="Number_of_wheeles" placeholder="Number_of_wheeles" ></td></tr>
+<tr>
+<td>vehicle_number<td><input type="text" name="vehicle_number" placeholder="vehicle_number"></td></td>
+<tr>
+<td>company<td><input type="text" name="company" placeholder="company"></td></tr>
+<tr>
+<td>Model<td><input type="text" name="Model" placeholder="Model"></td></tr>
+<tr>
+<td>Color<td><input type="text" name="Color" placeholder="Color"></td></tr>
+<tr><td align="center" colspan="3">
+<input type="submit" id="btn">
+</table>
+</body>
+</html>

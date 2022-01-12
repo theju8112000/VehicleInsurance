@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>REGISTER FORM</title>
+<style>
+table
+{
+color: white;
+background: none;
+background-position: center;
+border-radius: 30px;
+margin-left: 135px
+}
+
+#btn
+{
+background-color:green;
+color:white;
+height:35px;
+width:100px;
+border-radius:25px
+}
+body
+{ 
+background-image: url(teju.jpg);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+}
+.regform
+{
+  font-size: 18px;
+  margin-left: 145px;
+  color: white;
+  margin-top: 85px;
+ }
+</style>
+</head>
+<body>
+<FORM method="POST" ACTION="abc.php">
+	<div class="regform"><h1><b><u>Rigistration From</u><b></h1></div>
+<br>
+<br>
+
+<table align="center" border="3" cellspacing="20">
+<tr>
+<td>FirstName<td><input type="text" name="FirstName" placeholder="FirstName"></td></tr>
+
+<tr><td>LastName<td><input type="text" name="LastName" placeholder="LastName" ></td></tr>
+<tr><td>
+DOB<td><input type="date" name="fromdate" placeholder="yyyy-mm-dd"></td></tr>
+<tr><td>
+Address<td><input type="text" name="Address" placeholder="Address"></td></tr>
+<tr><td>
+PhoneNumber<td><input type="text" name="PhoneNumber" placeholder="PhoneNumber"></td></tr>
+<tr><td>
+Age<td><input type="text" name="age" placeholder="age"></td></tr>
+<tr><td>Gender</td><td><input type=radio name=operation value=Female>Female</input><input type=radio name=operation value=Male>Male</input></td></tr><tr><td>
+password<td><input type="text" name="password" placeholder="password"></td></tr>
+<tr><td align="center" colspan="3">
+<input type="submit" id="btn">
+</table>
+</FORM>
+</body>
+</html>

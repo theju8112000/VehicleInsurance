@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>add policy</title>
+</head>
+<style>
+table
+{
+color: white;
+background-color: #a3c2c2;
+background-position: center;
+border-radius: 30px;
+position: center;
+transparent: transparent;
+}
+
+#btn
+{
+background-color:#ffcc66;
+color:white;
+height:35px;
+width:90px;
+border-radius:25px
+}
+body
+{ 
+background-color: #a3c2c2;
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+}
+.policy
+{
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+}
+</style>
+
+<body>
+<FORM method="POST" ACTION="accident.php">
+
+	<div align="center" class="policy"><h2><b><u>ADD DETAILS</u><b></h2></div>
+<br>
+<br>
+
+<table align="center" border="3" cellspacing="20" style="background-color:#a3c2c2">
+<tr>
+<td>VehicleNo<td><input type="text" name="VehicleNo" placeholder="VehicleNO"></td></tr>
+<tr>
+<td>Accident Date<td><input type="date" name="fromdate" required placeholder="AccidentDate"></td></tr>
+<tr>
+<td>Accident Time<td><input type="float" name="at" placeholder="AccidentTime"></td></td>
+<tr>
+<td>Accident Place<td><input type="text" name="AccidentPlace" placeholder="AccidentPlace"></td></tr>
+<tr><td align="center" colspan="3">
+<input type="submit" id="btn">
+</table>
+</body>
+</html>
